@@ -1,0 +1,402 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 150%;
+    width: 100%;
+}
+
+
+
+.custom-arrow-nav {
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.custom-arrow-nav a{
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.main exit-psp{
+    cursor: pointer;
+}
+
+.main .psp-lite__table_wrapper {
+    margin-bottom: 5rem;
+    min-height: auto;
+   
+}
+
+.psp-lite__table_wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: calc(100vh - 90px);
+    z-index: 2;
+    position: relative;
+}
+
+.psp-lite__login_form {
+    width: 100%;
+    max-width: 720px;
+    background: rgb(226, 230, 173);
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 425px;
+    position: relative;
+    margin-top: 10rem;
+}
+
+.slide-in-quick {
+    -webkit-animation: slidein 0.3s;
+    -o-animation: slidein 0.3s;
+    animation: slidein 0.3s;
+    height: 450px;
+    width: 680px;
+}
+
+.psp-lite__table_wrapper .pnl-manager {
+    position: relative;
+    height:450px;
+    width:680px;
+}
+
+.pnl-manager {
+    min-width: 290px;
+    max-width: 680px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.pnl-manager .back-button {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    font-size: 24px;
+}
+
+.pnl-manager button {
+    color: #1f80e0;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    outline: 0;
+}
+
+.pnl-manager bi-arrow-left .exit-psp {
+    font-size: 21px;
+    line-height: 1.1;
+}
+
+.psp-lite__table_wrapper .pnl-manager .heading {
+    margin-bottom: 0;
+}
+.heading {
+    margin-left: 35px;
+}
+
+.heading .heading-text {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+    color: #1f80e0;
+}
+
+.payment-container {
+    width: 100%;
+    height:450px;
+    margin-top:15px;
+}
+
+.payment-container .payment-methods{
+    width:30%;
+    height:90%;
+    float:left;
+    background-color: white;
+}
+
+.payment-methods .list{
+    height:10%;
+    width:100%;
+    background-color: #1f80e0;
+    cursor: pointer;
+}
+
+.list .icon{
+    height:35%;
+    width:20px;
+    margin:0 0 0 20px;
+    font-size: 20px;
+    float:left;
+    color:white;
+}
+
+.list .methods{
+    height:35%;
+    width:200px;
+    margin-top: 20px;
+    margin-left:40px;
+    color:white;
+}
+
+.list .methods span{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size:14px;
+    font-weight: bold;
+}
+
+.payment-methods .list1{
+    height:10%;
+    width:100%;
+    cursor: pointer;
+}
+
+.list1 .icon{
+    height:35%;
+    width:20px;
+    margin:0 0 0 20px;
+    font-size: 20px;
+    float:left;
+    color:#1f80e0;
+}
+
+.list1 .methods{
+    height:35%;
+    width:200px;
+    margin-top: 20px;
+    margin-left:40px;
+}
+
+.list1 .methods span{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size:14px;
+    font-weight: bold;
+    color:#1f80e0;
+}
+
+.payment-methods .list2{
+    height:10%;
+    width:100%;
+    cursor: pointer;
+}
+
+.list2 .icon{
+    height:35%;
+    width:20px;
+    margin:0 0 0 20px;
+    font-size: 20px;
+    float:left;
+    color:#1f80e0;
+}
+
+.list2 .methods{
+    height:35%;
+    width:200px;
+    margin-top: 20px;
+    margin-left:40px;
+}
+
+.list2 .methods span{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size:14px;
+    font-weight: bold;
+    color:#1f80e0;
+}
+
+.payment-methods .list3{
+    height:10%;
+    width:100%;
+    cursor: pointer;
+}
+
+.list3 .icon{
+    height:35%;
+    width:20px;
+    margin:0 0 0 20px;
+    font-size: 20px;
+    float:left;
+    color:#1f80e0;
+}
+
+.list3 .methods{
+    height:35%;
+    width:200px;
+    margin-top: 20px;
+    margin-left:40px;
+}
+
+.list3 .methods span{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size:14px;
+    font-weight: bold;
+    color:#1f80e0;
+}
+
+.payment-methods .list4{
+    height:10%;
+    width:100%;
+    cursor: pointer;
+}
+
+.list4 .icon{
+    height:35%;
+    width:20px;
+    margin:0 0 0 20px;
+    font-size: 20px;
+    float:left;
+    color:#1f80e0;
+}
+
+.list4 .methods{
+    height:35%;
+    width:200px;
+    margin-top: 20px;
+    margin-left:40px;
+}
+
+.list4 .methods span{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size:14px;
+    font-weight: bold;
+    color:#1f80e0;
+}
+
+.payment-container .payment-details{
+    width:65%;
+    height:90%;
+    margin-left:220px;
+}
+
+.payment-details h4{
+    font-weight: bold;
+    color:#1f80e0;
+}
+
+.payment-details .accept{
+    float:left;
+    margin-top:8px;
+    font-size: 12px;
+    color:#1f80e0;
+}
+
+.payment-details span > img{
+    height:35px;
+    width:200px;
+    float:left;
+    margin-left:5px;
+}
+
+.payment-details .box{
+    height:50%;
+    width:98%;
+    margin-top:50px;
+    margin-left: 5px;
+    color:#1f80e0;
+}
+
+.payment-details .box .box1{
+    height:33%;
+    width:100%;
+}
+
+.payment-details .box .box2{
+    height:33%;
+    width:100%;
+}
+
+.box2 .form-group{
+    height:100%;
+    width:100%;
+    position: relative;
+}
+
+.box2 input[type=tel]{
+    width: 100%;
+    height: 65%;
+    padding: 15px;
+    margin: -5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+}    
+
+.payment-details .box .box3{
+    height:33%;
+    width:100%;
+}
+
+.payment-details .box3 .boxA{
+    height:100%;
+    width:65%;
+    float:left;
+}
+
+.payment-details .boxA .month select{
+    height: 35px;
+    width: 50%;
+    float: left;
+}
+
+.payment-details .boxA .year select{
+    height: 35px;
+    width: 40%;
+    margin-left: 10px;
+}
+
+input[type=number]{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    margin: 0px 0 22px 0;
+    display: inline-block;
+    border: none;
+}  
+
+.payment-details .box3 .boxB{
+    height:100%;
+    width:35%;
+    margin-left:277px;
+}
+
+.boxB input[type=tel]{
+    width: 97%;
+    height: 35px;
+    padding: 15px;
+    margin: 0px 0 22px 0;
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+}  
+
+.payment-details button {
+    margin: 90px 0 0 170px;
+    size: 16px;
+}
+
+.payment-details .btn{
+    font-size: 16px;
+    height: 24px;
+    width:100px;
+}

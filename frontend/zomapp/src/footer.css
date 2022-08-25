@@ -1,0 +1,31 @@
+#footer{
+    height:120px;
+    width:100%;
+    margin-top: 5%;
+    background-color:#e28b62;
+    display:inline-block;
+}
+
+#footText{
+    text-align: center;
+}
+
+.footDiv{
+    height:70px;
+    width:33%;
+    float: left;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+.noBorder{
+    border:none 
+}
+#social{
+    float: right; 
+}
+
+.slogo{
+    height:50px;
+    width:50px;
+}

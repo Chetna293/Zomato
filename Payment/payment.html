@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <title>Choose Payment Method</title>
+        <link rel="stylesheet" href="payment.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="icon" type="image/png" href="https://b.zmtcdn.com/images/logo/zomato_logo_2017.png"/>
+        
+    </head>
+    <body>
+        <div class="main">
+            
+            <div class="psp-lite__table_wrapper" id="table-content">
+                <div class="psp-lite__login_form">
+                    <div class="slide-in-quick">
+                        <div class="pnl-manager">
+                            <div class="back-button">
+                                <button type="button">
+                                    <a href="../Addresspage/address.html">
+                                        <i class="bi bi-arrow-left exit-psp"></i>
+                                    </a>
+                                </button>
+                            </div>
+                            <div class="heading">
+                                <span class="heading-text">Choose Payment Method</span>
+                            </div>
+                            <div class="payment-container">
+                                <div class="payment-methods">
+                                    <div class="list">
+                                        <div class="icon">
+                                            <i class="bi bi-credit-card"></i>
+                                        </div>
+                                        <div class="methods">
+                                            <span>CREDIT/DEBIT CARD</span>
+                                        </div>
+                                    </div>
+                                    <div class="list1">
+                                        <div class="icon">
+                                            <i class="bi bi-wallet2"></i>
+                                        </div>
+                                        <div class="methods">
+                                            <span>WALLET</span>
+                                        </div>
+                                    </div>
+                                    <div class="list2">
+                                        <div class="icon">
+                                            <i class="bi bi-caret-right-square"></i>
+                                        </div>
+                                        <div class="methods">
+                                            <span>UPI</span>
+                                        </div>
+                                    </div>
+                                    <div class="list3">
+                                        <div class="icon">
+                                            <i class="bi bi-credit-card-2-back"></i>
+                                        </div>
+                                        <div class="methods">
+                                            <span>CREDIT</span>
+                                        </div>
+                                    </div>
+                                    <div class="list4">
+                                        <div class="icon">
+                                            <i class="bi bi-bank"></i>
+                                        </div>
+                                        <div class="methods">
+                                            <span>NET BANKING</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="payment-details">
+                                    <h4>Add new card</h4>
+                                    <div class="accept">WE ACCEPT</div>
+                                    <span>
+                                        <img src="atmcards.png">
+                                    </span>
+                                    <div class="box">
+                                        <div class="box1">
+                                            <div class="form-group has-dark">
+                                                <label for="name" class="control-label">Name</label>
+                                                <input id="name" class="form-control" name="name"
+                                                type="text" placeholder="Your Name"/>
+                                            </div>
+                                        </div>
+                                        <div class="box2">
+                                            <div class="form-group has-dark">
+                                                <label for="Card Number" class="control-label">Enter Card Number</label>
+                                                <input id="ccn" class="form-control" type="tel" inputmode="numeric" pattern="[0-9]" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx">
+                                            </div>
+                                        </div>
+                                        <div class="box3">
+                                            <div class="boxA">
+                                                <label for="Expiration Date" class="control-label">Expiration Date</label>
+                                                <div class="form-group has-dark">
+                                                    <div class="month">
+                                                        <select>
+                                                            <option value="01">January</option>
+                                                            <option value="02">February</option>
+                                                            <option value="03">March</option>
+                                                            <option value="04">April</option>
+                                                            <option value="05">May</option>
+                                                            <option value="06">June</option>
+                                                            <option value="07">July</option>
+                                                            <option value="08">August</option>
+                                                            <option value="09">September</option>
+                                                            <option value="10">October</option>
+                                                            <option value="11">November</option>
+                                                            <option value="12">December</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="year">
+                                                        <select>
+                                                            <option value="13">2022</option>
+                                                            <option value="14">2023</option>
+                                                            <option value="15">2024</option>
+                                                            <option value="16">2025</option>
+                                                            <option value="17">2026</option>
+                                                            <option value="18">2027</option>
+                                                            <option value="19">2028</option>
+                                                            <option value="20">2029</option>
+                                                            <option value="21">2030</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="boxB">
+                                                <label for="CVV" class="control-label">CVV</label>
+                                                <div class="form-group has-dark">
+                                                    <input id="cvv" class="form-control" type="tel" inputmode="numeric" pattern="[0-9]" maxlength="3" placeholder="xxx">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="button"class="btn btn-danger">CONFIRM</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

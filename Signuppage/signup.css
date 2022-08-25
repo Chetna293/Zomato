@@ -1,0 +1,328 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 150%;
+    width: 100%;
+}
+
+
+
+.custom-arrow-nav {
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.custom-arrow-nav a{
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.main exit-psp{
+    cursor: pointer;
+}
+
+#icon{
+    margin-top:6px;
+    margin-left:-2px;
+    float: left;
+}
+
+.main #icon img{
+    height:32px;
+    width:112px;
+    margin-top:0px;
+    margin-left:5px;
+    float: left;
+}
+
+ .nav-container .user-profile {
+    margin-left:950px;
+}
+
+.user-profile .signIn{
+    margin-left: 5px;
+    padding: 7px 17px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.signIn p{
+    font-size: 16px;
+    color:#1f80e0;
+}
+
+.main .psp-lite__steps {
+    left:88px;
+}
+
+.psp-lite__steps {
+    position: absolute;
+    left: 55px;
+    font-size: 11px;
+    color: #1f80e0;
+    margin-top: -3px;
+}
+
+.psp-lite__steps span{
+    font-size: 12px;
+    color:#1f80e0;
+    font-weight: bold;
+
+}
+
+.main .psp-lite__table_wrapper {
+    margin-bottom: 5rem;
+    min-height: auto;
+   
+}
+
+.psp-lite__table_wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: calc(100vh - 90px);
+    z-index: 2;
+    position: relative;
+}
+
+.psp-lite__table_caption {
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding: 0 10px;
+    line-height: 32px;
+    color: #1f80e0;
+    text-shadow: 0px 0px 14px rgb(226, 230, 173);
+    margin-top: -90px;
+    max-width: 830px;
+}
+
+.psp-lite__table_caption_lite {
+    color: grey;
+    font-size: 17px;
+    margin-bottom: 15px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.psp-lite__login_form {
+    width: 100%;
+    max-width: 720px;
+    background: rgb(226, 230, 173);
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 425px;
+    position: relative;
+    margin-top: 5rem;
+}
+
+.slide-in-quick {
+    -webkit-animation: slidein 0.3s;
+    -o-animation: slidein 0.3s;
+    animation: slidein 0.3s;
+    height: 450px;
+    width: 680px;
+}
+
+.psp-lite__table_wrapper .pnl-manager {
+    position: relative;
+    height:420px;
+    width:350px;
+}
+
+.pnl-manager {
+    min-width: 290px;
+    max-width: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.login-container {
+    width: 100%;
+    height:228px;
+}
+
+.pnl-manager .back-button {
+    position: absolute;
+    top: 18px;
+    height: 24px;
+    width: 24px;
+}
+
+.psp-lite__table_wrapper .pnl-manager .login-container .back-button {
+    top: 38;
+}
+
+.pnl-manager .back-button {
+    position: absolute;
+    top: 18px;
+    font-size:24px
+}
+
+.pnl-manager button {
+    color: #1f80e0;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    outline: 0;
+}
+
+.pnl-manager bi-arrow-left .exit-psp {
+    font-size: 21px;
+    line-height: 1.1;
+}
+
+.psp-lite__table_wrapper .pnl-manager .login-container .heading {
+    margin-bottom: 0;
+}
+
+.login-container .heading {
+    margin-top: 80px;
+    margin-bottom: 36px;
+}
+
+.login-container .heading .heading-text {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.4;
+    color: #1f80e0;
+}
+
+.login-container .email-id-container .email-input {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.row{
+    margin-top:10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-control {
+    display: block;
+    width: 150%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #1f80e0;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   
+}
+
+.form-group.form-control {
+    padding: 0;
+}
+
+.pnl-manager .form-control {
+    width: 132%;
+}
+
+.form-group .form-control {
+    padding: 15;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #1f80e0;
+    font-size: 16px;
+    margin-bottom: 0;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-color: #00000000;
+    
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    
+    outline: none;
+  }
+
+  .control-label{
+      font-size: 14px;
+      color: #1f80e0;
+      margin-left: 15px;
+  }
+
+  .login_button {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    padding: 7px 18px 7px;
+    border-radius: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #1f80e0;
+    border: none;
+    outline: 0;
+    outline-color: #00000000;
+    position: relative;
+    outline: none !important;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+
+.login_button a{
+    color: white;
+}
+
+.login-container .sign_up-button {
+    height: 40px;
+    width: 170px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #1f80e0;
+    margin: 10px 0px 0px 75px;
+}
+
+.sign_up-button a{
+    color: white;
+}

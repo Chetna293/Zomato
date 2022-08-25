@@ -5,7 +5,7 @@ a{
 
 #header{
     height:60px;
-    background-color:#edb312;
+    background-color:#1f80e0;
 }
 
 #icon{
@@ -15,7 +15,7 @@ a{
 }
 
 .navbar{
-    background-color: #edb312;
+    background-color: #1f80e0;
 }
 
 #social{
@@ -39,7 +39,7 @@ a{
 #logo{
     height: 100px;
     width: 100px;
-    background-color:#edb312;
+    background-color:#1f80e0;
     border-radius: 50%;
     margin-left: 45%;
     margin-top:6%;
@@ -67,7 +67,7 @@ a{
     margin-top: 15%;
     position: absolute;
     font-size: 41px;
-    color: #edb312;
+    color: #1f80e0;;
 }
 
 .dropdown{
@@ -100,7 +100,7 @@ select{
     text-align: center;
     font-size:30px;
     font-weight:bold;
-    color:#edb312;
+    color:#1f80e0;
     display:block;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -147,7 +147,7 @@ select{
 }
 
 .componentheading > a{
-    color:#edb312;
+    color:#1f80e0;
     font-size:25px;
 }
 
@@ -160,7 +160,7 @@ select{
     height:120px;
     width:100%;
     margin-top: 5%;
-    background-color:#edb312;
+    background-color:#1f80e0;
 }
 
 #footText{

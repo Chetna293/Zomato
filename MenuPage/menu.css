@@ -1,0 +1,257 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 150%;
+    width: 100%;
+}
+
+
+
+.custom-arrow-nav {
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.custom-arrow-nav a{
+    font-size: 22px;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.main exit-psp{
+    cursor: pointer;
+}
+
+#icon{
+    margin-top:6px;
+    margin-left:-2px;
+    float: left;
+}
+
+.main #icon img{
+    height:32px;
+    width:112px;
+    margin-top:0px;
+    margin-left:5px;
+    float: left;
+}
+
+ .nav-container .user-profile {
+    margin-left:950px;
+}
+
+.user-profile .signIn{
+    margin-left: 5px;
+    padding: 7px 17px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.signIn p{
+    font-size: 16px;
+    color:#1f80e0;
+}
+
+.main .psp-lite__steps {
+    left:88px;
+}
+
+.psp-lite__steps {
+    position: absolute;
+    left: 55px;
+    font-size: 11px;
+    color: #1f80e0;
+    margin-top: -3px;
+}
+
+.psp-lite__steps span{
+    font-size: 12px;
+    color:#1f80e0;
+    font-weight: bold;
+
+}
+
+.main .psp-lite__table_wrapper {
+    margin-bottom: 5rem;
+    min-height: auto;
+   
+}
+
+.psp-lite__table_wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: calc(100vh - 90px);
+    z-index: 2;
+    position: relative;
+}
+
+.psp-lite__table_caption {
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding: 0 10px;
+    line-height: 32px;
+    color: #1f80e0;
+    text-shadow: 0px 0px 14px rgb(226, 230, 173);
+    margin-top: -90px;
+    max-width: 830px;
+}
+
+.psp-lite__table_caption_lite {
+    color: grey;
+    font-size: 17px;
+    margin-bottom: 15px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.psp-lite__login_form {
+    width: 100%;
+    max-width: 720px;
+    background: rgb(226, 230, 173);
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 600px;
+    position: relative;
+    margin-top: 5rem;
+}
+
+.slide-in-quick {
+    -webkit-animation: slidein 0.3s;
+    -o-animation: slidein 0.3s;
+    animation: slidein 0.3s;
+    height: 450px;
+    width: 680px;
+}
+
+.psp-lite__table_wrapper .pnl-manager {
+    position: relative;
+    height:420px;
+    width:350px;
+}
+
+.pnl-manager {
+    min-width: 290px;
+    max-width: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.psp-lite__table_wrapper .pnl-manager .heading {
+    margin-bottom: 0;
+}
+
+.heading {
+    margin-top: 30px;
+    margin-left:310px;
+}
+
+.heading .heading-text {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+    color: #1f80e0;
+}
+
+.menu-container {
+    width: 100%;
+    height: 400px;
+}
+
+.tileContainer{
+    height:100px;
+    width:90%;
+    display:inline-block;
+    margin-left:2%;
+    margin-top:2%;
+}
+
+.box1{
+    height:100%;
+    width:100%;
+}
+
+.tileComponent1{
+    height:100px;
+    width:75%;
+    float:left;
+}
+
+.tileComponent2 > img{
+    height:100px;
+    width:100%;
+    border-radius: 10px;
+}
+
+.tileComponent2{
+    width:20%;
+    margin-right:0px;
+    float:left;
+}
+
+.componentheading > a{
+    color:#1f80e0;
+    font-size:20px;
+}
+
+.componentSubheading{
+    color:gray;
+    font-size:12px;
+    margin-top: 2%;
+}
+
+.menu-container .add-button {
+    position: absolute;
+    top: 173px;
+    right: 150px;
+    font-size: 30px;
+}
+
+.menu-container button {
+    color: black;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    outline: 0;
+}
+
+.total{
+    height:60px;
+    width:100%;
+}
+
+.total h3{
+    font-weight: bold;
+}
+
+.total button{
+    margin: -37px 0 0 485px;
+    size: 16px;
+}
+
+.btn{
+    font-size: 16px;
+    height: 24px;
+    width:100px;
+}
